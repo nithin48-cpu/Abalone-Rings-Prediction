@@ -1,0 +1,16 @@
+<html>
+<body>
+<form action='/predict' method="POST">
+    Sex	          :<input type='text' name='Sex'><br>
+    Length        :<input type='text' name='Length'><br>
+    Diameter      :<input type='text' name='Diameter'><br>
+    Height        :<input type='text' name='Height'><br>
+    Whole_weight  :<input type='text' name='Whole_weight'><br>
+    Shucked_weight:<input type='text' name='Shucked_weight'><br>
+    Viscera_weight:<input type='text' name='Viscera_weight'><br>
+    Shell_weight  :<input type='text' name='Shell_weight'><br>
+    Rings         : {{result}} <br>
+    <input type="submit" value="Predict">
+</form>
+</body>
+</html>
